@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+! Don't import all the CSS from the previous project.
+? Lean on Tailwind to do the heavy lifting.
+*/
+body {
+        background: linear-gradient(to bottom, #adb7b1, transparent) no-repeat;
+        /* You can adjust the gradient direction and stops as needed */
+        /* For example, to create a horizontal gradient: */
+        /* background: linear-gradient(to right, #adb7b1, transparent); */
+        /* You can also add more color stops if you want a multi-color gradient */
+}
+
+h1 {
+    color: #b89710;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
